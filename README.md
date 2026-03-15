@@ -1,8 +1,7 @@
 # Food Delivery Delay Analysis
 
 ## Project Overview
-This project analyzes food delivery operations to identify factors contributing to delivery delays.  
-The goal is to understand how delivery distance and vehicle type affect delivery performance and provide actionable business recommendations.
+This project analyzes food delivery operations to identify key factors contributing to delivery delays. The analysis focuses on understanding how delivery distance, vehicle type, and operational patterns influence delivery performance. The objective is to uncover actionable insights that can help improve delivery efficiency and reduce delays.
 
 ---
 
@@ -19,15 +18,21 @@ The goal is to understand how delivery distance and vehicle type affect delivery
 
 The dataset includes the following important fields:
 
-- Delivery_person_ID
-- Delivery_person_Age
-- Delivery_person_Ratings
-- Type_of_vehicle
-- Delivery_Status
-- Delivery_Distance(km)
-- Distance_Group
-- Time_taken(min)
+-Delivery_person_ID – Unique identifier for each delivery agent
 
+-Delivery_person_Age – Age of the delivery agent
+
+-Delivery_person_Ratings – Customer rating for the delivery agent
+
+-Type_of_vehicle – Vehicle used for delivery (Bike, Motorcycle, etc.)
+
+-Delivery_Status – Indicates whether the delivery was on time or delayed
+
+-Delivery_Distance (km) – Distance between restaurant and customer
+
+-Distance_Group – Categorized distance ranges for analysis
+
+-Time_taken (min) – Total time taken to complete the delivery
 ---
 
 ## Key KPI
@@ -38,7 +43,7 @@ Delay % = Delayed Orders / Total Orders
 
 Result:
 
-32.51% of deliveries are delayed.
+Approximately **32.51%** of deliveries experienced delays, indicating a significant opportunity for operational improvement.
 
 ---
 
@@ -55,6 +60,8 @@ Result:
 ## Dashboard
 
 ![Dashboard](image/dashboard.png)
+
+The Power BI dashboard provides an interactive view of delivery performance, highlighting delay trends, vehicle distribution, and distance-based delivery patterns.
 
 ---
 
